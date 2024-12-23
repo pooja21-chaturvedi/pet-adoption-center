@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pet Adoption Center</h1>
+            <nav>
+                <ul>
+                    <li><a href="C:\Users\NITRO\Desktop\pet adoption new\index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="adopt.html">Adopt a Pet</a></li>
+                    <li><a href="voulenteer.html">Volunteer</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Available Pets Section -->
+        <section id="available-pets">
+            <h2>Meet Our Lovely Pets</h2>
+            <div class="pet-container">
+                <!-- Pet Card -->
+                <div class="pet-card">
+                    <img src="C:\Users\NITRO\Desktop\Pet2\labradorretriever.jpeg" alt="Zoro">
+                    <h3>Zoro</h3>
+                    <p><strong>Breed:</strong> Labrador Retriever</p>
+                    <p><strong>Age:</strong> 3 years</p>
+                    <p><strong>Favorite Food:</strong> Chicken and Rice</p>
+                    <p class="status available">Available</p>
+                    <button>Adopt Zoro</button>
+                </div>
+
+                <div class="pet-card">
+                    <img src="C:\Users\NITRO\Desktop\Pet2\cat.jpg" alt="Julie">
+                    <h3>Julie</h3>
+                    <p><strong>Breed:</strong> Siamese Cat</p>
+                    <p><strong>Age:</strong> 2 years</p>
+                    <p><strong>Favorite Food:</strong> Tuna and Salmon</p>
+                    <p class="status unavailable">Adopted</p>
+                </div>
+
+                <div class="pet-card">
+                    <img src="C:\Users\NITRO\Desktop\Pet2\golden retriever.jpg" alt="Bruno">
+                    <h3>Bruno</h3>
+                    <p><strong>Breed:</strong> Golden Retriever</p>
+                    <p><strong>Age:</strong> 4 years</p>
+                    <p><strong>Favorite Food:</strong> Beef and Carrots</p>
+                    <p class="status available">Available</p>
+                    <button>Adopt Bruno</button>
+                </div>
+
+                <div class="pet-card">
+                    <img src="C:\Users\NITRO\Desktop\Pet2\persiancat.webp" alt="suzi">
+                    <h3>Suzi</h3>
+                    <p><strong>Breed:</strong> Persian Cat</p>
+                    <p><strong>Age:</strong> 1 year</p>
+                    <p><strong>Favorite Food:</strong> Chicken and Milk</p>
+                    <p class="status unavailable">Adopted</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adoption Form Section -->
+        <section id="adoption-form">
+            <h2>Adopt a Pet</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                
+                <label for="pet">Which pet do you want to adopt?</label>
+                <select id="pet" name="pet" required>
+                    <option value="Buddy">Buddy</option>
+                    <option value="Luna">Luna</option>
+                    <option value="Max">Max</option>
+                    <option value="Bella">Bella</option>
+                </select>
+                
+                <label for="message">Why do you want to adopt?</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your reason here"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    

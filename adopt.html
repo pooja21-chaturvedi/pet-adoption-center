@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Pet - Pet Adoption Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff8787;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h2 {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            color: #333;
+            padding: 10px;
+        }
+
+        .card p {
+            padding: 0 10px 10px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .adopt-btn {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .adopt-btn:hover {
+            background-color: #ff8787;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adopt a Pet</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#available">Available Pets</a>
+        <a href="#process">Adoption Process</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="container" id="available">
+        <h2>Available Pets</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="C:\Users\NITRO\Desktop\pet adoption new\labrador.cms" alt="Pet 1">
+                <h3>Bella</h3>
+                <p>Bella is a friendly Labrador looking for a forever home.</p>
+                <a href="#contact" class="adopt-btn">Adopt Now</a>
+            </div>
+            <div class="card">
+                <img src="C:\Users\NITRO\Desktop\pet adoption new\GettyImages-1693180363.avif" alt="Pet 2">
+                <h3>Cisti</h3>
+                <p>cisti is a playful tabby cat who loves attention.</p>
+                <a href="#contact" class="adopt-btn">Adopt Now</a>
+            </div>
+            <div class="card">
+                <img src="C:\Users\NITRO\Desktop\pet adoption new\beagle.jpg" alt="Pet 3">
+                <h3>Charlie</h3>
+                <p>Charlie is an energetic beagle who loves outdoor adventures.</p>
+                <a href="contact.html" class="adopt-btn">Adopt Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="process">
+        <h2>Adoption Process</h2>
+        <div class="content">
+            <p>Adopting a pet is simple! Follow these steps:</p>
+            <ol style="text-align: left; max-width: 600px; margin: 0 auto;">
+                <li>Browse our available pets and choose the one you'd like to adopt.</li>
+                <li>Contact us to arrange a meeting with your chosen pet.</li>
+                <li>Complete the adoption application and pay the adoption fee.</li>
+                <li>Bring your new companion home and start your journey together!</li>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pet Adoption Center. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
